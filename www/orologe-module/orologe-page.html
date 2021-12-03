@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Orologe</title>
+    <link rel="stylesheet" href="orologe-style.css">
+</head>
+<body>
+    <div id="shader"></div>
+    <div id="div-time"></div>
+    <div id="set-timer-container">
+        <div>
+            <button id="btn-create-timer">
+                <p>Create Timer</p>
+            </button>
+        </div>
+        <div id="timer-settings">
+            <h2>time</h2>
+            <div id="hours">
+                <p id="timer-hours">hours</p><select name="hours" id="slct-hours"></select>
+            </div>
+            <div id="minutes">
+                <p id="timer-minutes">minutes</p><span><select name="hours" id="slct-minutes"></select></span>
+            </div>
+            <div id="seconds">
+                <label for="slct-seconds">seconds</label><select name="hours" id="slct-seconds"></select>
+            </div>
+            <button id="btn-set-timer">Set timer</button>
+        </div>
+    </div>
+    <script src="orologe-script.js"></script>
+</body>
+</html>
